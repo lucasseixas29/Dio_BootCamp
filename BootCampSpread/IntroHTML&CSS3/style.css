@@ -1,5 +1,8 @@
 body{
     background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo{
@@ -11,6 +14,16 @@ body{
 
     color: black;
 }
+#title{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.postcontent>a{
+    text-decoration: line-through;
+    color: lightgray;
+}
+
 .posttitle{
     font-size: 16px;
     font-style: italic;
@@ -28,7 +41,15 @@ body{
 .postcontent{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 .postimg{
     margin-bottom: 15px;
+    width: 100%;
+}
+.contact_list ul a{
+    list-style-type: none;
+    padding-left: 15px;
+    color: lightgray;
 }
