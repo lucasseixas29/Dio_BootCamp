@@ -1,0 +1,31 @@
+Atribuição
+= /  x = y / x = y
++= / x +=y / x = x + y
+*= / x+=y /  x = x * y
+/= / x/=y / x = x / y
+%= / x%=y / x = x % y
+
+Tipos de operadores
++ Adição
+- Subtração
+* Multriplicação 
+/ Divisão
+** Exponencial 
+% módulo
+++ Incrementar
+-- Decrementar
+
+Operadores de Comparação
+== Igual a
+=== Mesmo valor e mesmo tipo
+!= Diferente
+!== Valor e tipos diferentes
+> maior que
+< menor que
+>= maior ou igual
+<= menor ou igual
+
+Lógica
+&& "e" lógico
+|| "ou" lógico
+! "não" lógico
